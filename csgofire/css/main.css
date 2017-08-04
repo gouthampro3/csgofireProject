@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "CeraRoundProDEMOLight";
+    src: url(fonts/CeraRoundProDEMO-light.html) format("opentype");
+}
+@font-face {
+    font-family: "CeraRoundProDEMOBold";
+    src: url(fonts/CeraRoundProDEMO-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "CeraRoundProDEMOBlack";
+    src: url(fonts/CeraRoundProDEMO-Black.otf) format("opentype");
+}
+@font-face {
+    font-family: "CeraRoundProDEMORegular";
+    src: url(fonts/CeraRoundProDEMO-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: "CeraRoundProDEMOMedium";
+    src: url(fonts/CeraRoundProDEMO-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(fonts/MyriadProRegular.ttf.html) format("truetype");
+}
+body{
+    background-image: url("../img/sections/background001.jpg");
+    background-repeat:repeat;
+    background-attachment: fixed;
+    }
+
+
+    .box-ad{
+      position: relative;
+    }
+    .box-ad-value{
+      position: absolute;
+      font-size: 3vw;
+      top:40%;
+      left: 20%;
+    }
+
+
+  .box-banner{
+    position :relative;
+  }
+
+
+
+  .box-banner-heading-1{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 44%;
+  }
+  .box-banner-heading-2{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 43%;
+  }
+  .box-banner-heading-3{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 43%;
+  }
+  .box-banner-heading-4{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 38%;
+  }
+  .box-banner-heading-5{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 35%;
+  }
+  .box-banner-heading-6{
+    font-size: 3vw;
+    color:#fff;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+  }
+  .box-banner-heading-value{
+    -webkit-animation: neon7 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon7 1.5s ease-in-out infinite alternate;
+  animation: neon7 1.5s ease-in-out infinite alternate;
+  }
+
+
+	.box-image{
+		position:relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+  @media only screen and (min-width: 1170px) {
+    .box-image{
+      margin-left: 2%;
+    }
+  }
+
+	.box-site{
+		position: absolute;
+		top:40px;
+		left:35px;
+	}
+
+  .box-site-casejar{
+		position: absolute;
+		top:80px;
+		left:35px;
+	}
+  .box-site-holyboost{
+		position: absolute;
+		top:90px;
+		left:35px;
+	}
+  .box-site-csgokingdom{
+		position: absolute;
+		top:60px;
+		left:50px;
+	}
+  .box-site-csgonecro{
+		position: absolute;
+		top:70px;
+		left:65px;
+	}
+
+
+
+	.box-code-1{
+		position:absolute;
+		top: 135px;
+		left:44px;
+		font-size: 170%;
+		color:#fff;
+	}
+  .box-code-2{
+    position:absolute;
+    top: 135px;
+    left:40px;
+    font-size: 170%;
+    color:#fff;
+  }
+  .box-code-3{
+    position:absolute;
+    top: 135px;
+    left:58px;
+    font-size: 170%;
+    color:#fff;
+  }
+  .box-code-4{
+    position:absolute;
+    top: 135px;
+    left:75px;
+    font-size: 170%;
+    color:#fff;
+  }
+  .box-code-5{
+    position:absolute;
+    top: 135px;
+    left:70px;
+    font-size: 170%;
+    color:#fff;
+  }
+  .box-code-6{
+    position:absolute;
+    top: 135px;
+    left:50px;
+    font-size: 170%;
+    color:#fff;
+  }
+  .box-code-7{
+    position:absolute;
+    top: 141px;
+    left:33.5px;
+    font-size: 118%;
+    color:#fff;
+  }
+  .box-code-8{
+    position:absolute;
+    top: 140px;
+    left:33.5px;
+    font-size: 120%;
+    color:#fff;
+  }
+  .box-code-9{
+		position:absolute;
+		top: 135px;
+		left:37px;
+		font-size: 170%;
+		color:#fff;
+	}
+  .box-code-10{
+		position:absolute;
+		top: 140px;
+		left:32px;
+		font-size: 130%;
+		color:#fff;
+	}
+  .box-code-11{
+    position:absolute;
+    top: 140px;
+    left:35px;
+    font-size: 130%;
+    color:#fff;
+  }
+  .box-code-12{
+    position:absolute;
+    top: 146px;
+    left:33.5px;
+    font-size: 85%;
+    color:#fff;
+  }
+
+	.box-price{
+		position:absolute;
+		top: 27px;
+		left:65px;
+		font-size: 170%;
+		color:#fff;
+	}
+  .box-price-cashback{
+		position:absolute;
+		top: 32px;
+		left:35px;
+		font-size: 120%;
+		color:#fff;
+	}
+  .box-price-none{
+		position:absolute;
+		top: 27px;
+		left:75px;
+		font-size: 170%;
+		color:#fff;
+	}
+
+
+
+	.box-code-value{
+
+	}
+	.box-price-value{
+
+	}
